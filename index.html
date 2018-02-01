@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script
   src="https://code.jquery.com/jquery-3.3.1.js"
@@ -16,28 +17,34 @@
 </head>
 <body>
 
-    <div class="container col-md-3 mt-5 p-0 border  ">
+    <div class="container col-md-4 mt-5 p-0 border  ">
         <header class="col-sm-12"><img src="hiregl_logo.png" alt=""></header>
     
-        <div class="container col-md-11 mt-4" id="inputContainer">
+        <div class="container col-md-11 mt-5" id="inputContainer">
             <div class="loginLine">
                 <div class="login">LOG IN</div>
             </div>
 
-            <div class=" col-xs-8  mt-4">
+            <div class=" col-xs-8  mt-5">
                     <label for="usr">Username:</label>
                     <input type="text" class="" id="usr">
             </div>
 
-            <div class=" col-xs-8  mt-4">
+            <div class=" col-xs-8  mt-5">
                     <label for="pass">Password:</label>
-                    <input type="text" class="" id="pass">
+                    <input type="password" class="" id="pass">
             </div>
-
-            <div class="text-right">
-                    <button id="loginBtn" type="button" class="btn btn-default mt-4 mb-4">LOG IN</button>
+            <div class="lastLine mt-5 mb-5">
+                <div class="d-inline-block warningDiv">
+                    <span id="warning">
+                        Invalid username or password. <br>
+                        Please try again.
+                    </span> 
+                </div>
+                <div class="text-right d-inline-block float-right">
+                    <button id="loginBtn" type="button" class="btn btn-default mt-1 mb-4">LOG IN</button>
+                </div>
             </div>
-            
         </div>
         
     </div>

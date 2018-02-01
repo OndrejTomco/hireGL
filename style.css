@@ -6,8 +6,8 @@ body{
 header{
     background: rgb(212, 225, 87);
     text-align: center;
-    height: 130px;
-    line-height: 130px;
+    height: 150px;
+    line-height: 150px;
 }
 
 header > img{
@@ -26,24 +26,30 @@ header > img{
     display: block;
     width: 100%;
     border-bottom:2px solid rgb(212, 225, 87);
-    height: 20px;  
-}
-
-#usr:focus{
-    outline: none;
+    height: 25px;  
+    font-size: 17px;
 }
 
 #inputContainer{
     color: rgb(170,170,170);
-    font-size: 14px;
+    font-size: 17px;
 }
 
 #loginBtn{
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
     font-weight: bold;
     background-color: rgb(212, 225, 87);
 }
+
+#warning{
+    color:red;
+    visibility: hidden;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
 
 
 
