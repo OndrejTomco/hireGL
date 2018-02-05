@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="row m-0">
+            <div class="col-md-2 border p-0" id="sidePanel">
+                <header id="panelHeader"><img src="../hiregl_logo.png" alt=""></header>
+                <ul id="list-menu">
+                    <li>My interviews</li>
+                    <li>New interview</li>
+                </ul>
+            </div>
+
+            <div class="col-md-10 border p-0" id="content">
+                <header id="contentHeader">
+                    <h2 id="editText">Edit interview</h2>
+                </header>
+
+                <div id="form">
+                    <div class="row m-0">
+                        <div class="col-md-4" id="candidate">
+                                <div id="titleDiv">CANDIDATE</div>
+
+                                <label for="name">Name:</label>
+                                <input type="text" class="" id="name">
+
+                                <label for="surname">Surname:</label>
+                                <input type="text" class="" id="surname">
+
+                                <label for="phone">Phone:</label>
+                                <input type="text" class="" id="phone">
+
+                                <label for="email">Email:</label>
+                                <input type="email" class="" id="email">
+
+                                <label for="skype">Skype:</label>
+                                <input type="text" class="" id="skype">
+
+                                <label for="position">Position:</label>
+                                <Select name="position" class="" id="position">
+                                    <option value="">Senior consultant</option>
+                                </select>
+
+
+                        </div>
+        
+                        <div class="col-md-4" id="interview">
+                                <div id="titleDiv">INTERVIEW</div>
+
+                                
+                                <label for="date">Date:</label>
+                                <input type="date" class="" id="date">
+
+                                <label for="time">Time:</label>
+                                <input type="time" class="" id="time">
+
+                                <label for="location">Location:</label>
+                                <input type="location" class="" id="location">
+
+                                <label for="room">Room:</label>
+                                <input type="text" class="" id="room">
+
+                                <label for="person">Assigned Person:</label>
+                                <input type="text" class="" id="person">
+
+                                <label for="name">Notes:</label>
+                                <input type="text" class="" id="name">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-8" id="options">
+                    <button class="btn">CLOSE INTERVIEW</button>
+                    <button class="btn">CANCEL</button>
+                    <button class="btn">SAVE</button>
+
+                </div>
+
+
+            </div>
+
+          
+        </div>
+    </div>
+
+</body>
+</html>

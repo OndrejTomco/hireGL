@@ -1,0 +1,77 @@
+body,html{
+    width: 100%;
+    height: 100%
+}
+
+#sidePanel{
+  height:100vh;
+  -webkit-box-shadow: 5px 3px 29px -12px rgba(0,0,0,0.75);
+  z-index: 1;
+
+}
+
+#panelHeader{
+    height: 120px;
+    width: 100%;
+    background: rgb(212, 225, 87);
+    text-align: center;
+    line-height: 120px;
+}
+
+#list-menu{
+    list-style-type: none;
+}
+
+#contentHeader{
+    background: #EDEDED;
+    height: 120px;
+}
+
+#editText{
+    margin-left:30px;
+    position: relative;
+    top:60px;
+    color:#8D8D8D; 
+}
+
+#candidate{
+    margin-left:30px;
+}
+
+#titleDiv{
+    border-bottom: 1px solid rgb(179, 179, 179);
+    border-bottom-width: 100%;
+    padding-bottom: 10px;
+    font-size: 13px;
+    color: #8D8D8D;
+}
+
+#form{
+margin-top: 50px;
+    
+}
+
+#form label{
+    margin-top: 25px;
+    margin-bottom: 0px;
+    font-size: 13px;
+    color: #8D8D8D;
+    display: block;
+    width: 100%; 
+}
+
+#form input, select{
+    display: block;
+    width: 100%; 
+    border: none;
+    outline: none;
+    border-bottom:3px solid rgb(212, 225, 87);
+    
+}
+
+#options{
+    margin-top: 60px;
+    background: #EDEDED;
+    height: 120px;
+    line-height: 120px;
+}
